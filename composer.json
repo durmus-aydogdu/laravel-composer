@@ -1,0 +1,26 @@
+{
+    "name": "durmus-aydogdu/laravel-composer",
+    "description": "All you need to run composer commands via artisan",
+    "keywords": ["PHP","laravel","composer","artisan","install package","remove package","dump-autoload","clear-cache"],
+    "type": "library",
+    "authors": [
+        {
+            "name": "Durmuş AYDOĞDU",
+            "email": "aydogdu.durmus@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+        ],
+        "psr-4": {
+            "DurmusAydogdu\\LaravelComposer\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DurmusAydogdu\\LaravelComposer\\ComposerCommandServiceProvider"
+            ]
+        }
+    }
+}
