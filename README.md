@@ -1,4 +1,4 @@
-# Composer Commands Via Artisan
+#Laravel Composer
 
 All you need to run composer commands via artisan
 
@@ -19,13 +19,13 @@ However, if you are using an earlier version of Laravel, register the `ComposerC
    
 # Available Commands
              
-- php artisan composer:clear-cache - Delete all content from Composer's cache directories
-- php artisan composer:dump-autoload - Regenerate framework autoload files
-- php artisan composer:install - Resolve the dependencies and install them
-- php artisan composer:remove - Remove exist package from the composer.json file
-- php artisan composer:require - Add new package to the composer.json file
-- php artisan composer:run - Run composer command with params
-- php artisan composer:update - Get the latest versions of the dependencies and update packages
+- **php artisan composer:clear-cache** - Delete all content from composer's cache directories
+- **php artisan composer:dump-autoload** - Regenerate framework autoload files
+- **php artisan composer:install** - Resolve the dependencies and install them
+- **php artisan composer:remove** - Remove exist package from the composer.json file
+- **php artisan composer:require** - Add new package to the composer.json file
+- **php artisan composer:run** - Run composer command with params
+- **php artisan composer:update** - Get the latest versions of the dependencies and update packages
     
               
 # Usage
@@ -36,7 +36,7 @@ However, if you are using an earlier version of Laravel, register the `ComposerC
         
 - composer dump-autload -o
 
-        php artisan composer:dump-autoload --param="-o" 
+        php artisan composer:dump-autoload --param=-o 
 
 - composer install
 
@@ -62,7 +62,7 @@ However, if you are using an earlier version of Laravel, register the `ComposerC
 
 - composer show durmus-aydogdu/laravel-resource
    
-       php artisan composer:run show --param=durmus-aydogdu/laravel-resource
+       php artisan composer:run show --params=durmus-aydogdu/laravel-resource
           
 - composer show durmus-aydogdu/laravel-resource
    

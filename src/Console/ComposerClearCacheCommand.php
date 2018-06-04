@@ -22,7 +22,7 @@ class ComposerClearCacheCommand extends Command
      *
      * @var string
      */
-    protected $description = 'Delete all content from Composer\'s cache directories';
+    protected $description = 'Delete all content from composer\'s cache directories';
 
     /**
      * The composer instance.
