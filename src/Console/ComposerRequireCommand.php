@@ -129,17 +129,4 @@ class ComposerRequireCommand extends Command
     {
         return (new Process('', $this->workingPath))->setTimeout(null);
     }
-
-    /**
-     * Set the working path used by the class.
-     *
-     * @param  string  $path
-     * @return $this
-     */
-    public function setWorkingPath($path)
-    {
-        $this->workingPath = realpath($path);
-
-        return $this;
-    }
 }
